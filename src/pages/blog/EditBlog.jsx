@@ -1,14 +1,14 @@
 import React from 'react'
-import Navbar from '../../Components/Navbar/Navbar'
 import Layout from '../../Components/Layout/Layout'
 import Form  from '../../pages/blog/Components/form/Form'
 
-const AddBlog = () => {
+
+const Editblog = () => {
   return (
     <Layout>
-      <Form type='Create'/>
+        <Form type='Edit'/>
     </Layout>
   )
 }
 
-export default AddBlog
+export default Editblog
